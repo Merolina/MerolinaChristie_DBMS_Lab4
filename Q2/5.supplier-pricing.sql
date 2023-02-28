@@ -1,0 +1,18 @@
+INSERT INTO supplier_pricing(PRO_ID,SUPP_ID,SUPP_PRICE) 
+VALUES((SELECT PRO_ID FROM product WHERE PRO_NAME='ROG LAPTOP'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Mittal Ltd.'),30000), 
+((SELECT PRO_ID FROM product WHERE PRO_NAME='GTA V'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Appario Ltd.'),1500),
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='ROG LAPTOP'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Mittal Ltd.'),30000), 
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='HARRY POTTER'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Rajesh Retails'),3000), 
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='TSHIRT'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Knome products'),2500),
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='OATS'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Rajesh Retails'),1000), 
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='Train Your Brain'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Appario Ltd.'),780),
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='Train Your Brain'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Bansal Retails'),789), 
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='ROG LAPTOP'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Rajesh Retails'),31000), 
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='GTA V'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Mittal Ltd.'),1450),
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='OATS'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Appario Ltd.'),999), 
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='Boat EarPhones'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Knome products'),549), 
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='Boat EarPhones'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Bansal Retails'),529), 
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='MILK'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Appario Ltd.'),105), 
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='MILK'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Rajesh Retails'),99),
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='TSHIRT'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Mittal Ltd.'),2999), 
+ ((SELECT PRO_ID FROM product WHERE PRO_NAME='HARRY POTTER'),(SELECT SUPP_ID FROM supplier WHERE SUPP_Name='Appario Ltd.'),2999);
